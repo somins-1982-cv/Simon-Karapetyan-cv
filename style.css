@@ -1,0 +1,33 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+*/
+
+body{
+    background-color: #ffffff;
+}
+
+#somins-cv-header{
+                display: flex;
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
+                align-content: flex-start;
+                align-items: flex-start;
+                margin: 0 auto;
+                width: 100vw;
+                height: auto !important;
+
+}
+.section-cv{
+    flex: 1 1 auto;
+}
+#somins-cv-header img{
+   max-width: 100%;
+    max-height: 100%; 
+    object-fit:contain;
